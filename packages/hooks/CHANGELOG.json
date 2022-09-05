@@ -1,0 +1,17 @@
+{
+  "name": "@sh/hooks",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@sh/hooks_v1.0.1",
+      "date": "Mon, 05 Sep 2022 15:00:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add log"
+          }
+        ]
+      }
+    }
+  ]
+}
