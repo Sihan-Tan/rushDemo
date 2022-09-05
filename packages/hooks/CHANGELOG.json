@@ -1,0 +1,17 @@
+{
+  "name": "@sh/hooks",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@sh/hooks_v1.0.0",
+      "date": "Mon, 05 Sep 2022 14:26:43 GMT",
+      "comments": {
+        "undefined": [
+          {
+            "comment": "delete console"
+          }
+        ]
+      }
+    }
+  ]
+}
