@@ -1,0 +1,17 @@
+{
+  "name": "@sh/components",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@sh/components_v1.0.1",
+      "date": "Wed, 07 Sep 2022 16:28:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -2,6 +2,23 @@
   "name": "@sh/hooks",
   "entries": [
     {
+      "version": "1.0.4",
+      "tag": "@sh/hooks_v1.0.4",
+      "date": "Wed, 07 Sep 2022 16:28:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add dependent"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@sh/utils\" to `1.0.2`"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.3",
       "tag": "@sh/hooks_v1.0.3",
       "date": "Mon, 05 Sep 2022 15:13:33 GMT",

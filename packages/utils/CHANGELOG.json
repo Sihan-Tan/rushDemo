@@ -2,6 +2,18 @@
   "name": "@sh/utils",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@sh/utils_v1.0.2",
+      "date": "Wed, 07 Sep 2022 16:28:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "add dependent"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@sh/utils_v1.0.1",
       "date": "Mon, 05 Sep 2022 15:13:33 GMT",
