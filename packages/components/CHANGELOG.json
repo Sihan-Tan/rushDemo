@@ -2,6 +2,18 @@
   "name": "@sh/components",
   "entries": [
     {
+      "version": "1.0.2",
+      "tag": "@sh/components_v1.0.2",
+      "date": "Thu, 08 Sep 2022 13:39:08 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "change dependent"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.1",
       "tag": "@sh/components_v1.0.1",
       "date": "Wed, 07 Sep 2022 16:28:58 GMT",
