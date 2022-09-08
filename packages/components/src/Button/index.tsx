@@ -1,4 +1,4 @@
-import React from 'react';
+import cn from "classnames";
 
 interface ButtonProps {
   /**
@@ -12,7 +12,7 @@ interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: "small" | "medium" | "large";
   /**
    * Button contents
    */
@@ -24,20 +24,23 @@ interface ButtonProps {
 }
 
 /**
- * Primary UI component for user interaction
+ * 这是一个按钮组件
  */
 const Button = ({
   primary = false,
-  size = 'medium',
+  size = "medium",
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={cn(
+        "bg-primary dark:bg-cyan-200 text-red-300 px-2 w-[80px]h-8",
+        "after:content-['']",
+        "hover:bg-emerald-400 transition duration-150 first-letter:text-red-500"
+      )}
       style={{ backgroundColor }}
       {...props}
     >
